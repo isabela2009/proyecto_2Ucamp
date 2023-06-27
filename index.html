@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Horario de clases y tareas pendientes</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+       
+        button[type="submit"],
+        button[type="button"] {
+            padding: 10px 20px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Horario de clases</h1>
+        <div class="content">
+            <table>
+                <tr>
+                    <th>Hora Co</th>
+                    <th>Hora Mx</th>
+                    <th>Lunes y Miércoles</th>
+                </tr>
+                <tr>
+                    <td>8:05</td>
+                    <td>7:05</td>
+                    <td>Bienvenida, repaso o pendientes</td>
+                </tr>
+                <tr>
+                    <td>8:10</td>
+                    <td>7:10</td>
+                    <td>Inicio de la clase</td>
+                </tr>
+                <tr>
+                    <td>9:20</td>
+                    <td>8:20</td>
+                    <td>Break de 10 minutos</td>
+                </tr>
+                <tr>
+                    <td>8:30</td>
+                    <td>9:30</td>
+                    <td>Regresamos a clase</td>
+                </tr>
+                <tr>
+                    <td>9:20</td>
+                    <td>10:20</td>
+                    <td>Dudas o aclaraciones</td>
+                </tr>
+                <tr>
+                    <td>9:30</td>
+                    <td>10:30</td>
+                    <td>Finalizamos clase</td>
+                </tr>
+            </table>
+            <h1 style="font-size: 60px;">Martes: No hay clases, pero hay asesoría grupal</h1>
+        </div>
+        <h1>Tareas pendientes</h1>
+        <div class="content">
+            <div class="tareas">
+                <form id="formulario">
+                    <label for="tarea">Agregar tarea:</label>
+                    <input type="text" id="tarea" name="tarea">
+                    <button type="submit">Agregar</button>
+                    <button type="button">Editar</button>
+                </form>
+                <ul id="lista-tareas">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="isa.js"></script>
+</body>
+</html>

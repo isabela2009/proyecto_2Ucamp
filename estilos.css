@@ -1,0 +1,151 @@
+/* Estilos para la tabla de horario */
+body {
+    font-size: 50px;
+    background-image: url('https://us.123rf.com/450wm/sternfahrer/sternfahrer2210/sternfahrer221000949/193245556-cerezos-rosas-junto-a-un-camino-inexplorado-arte-de-ilustración-de-anime.jpg?ver=6');
+    background-size: cover;
+    font-weight: bold;
+    font-style: italic;
+  }
+.tareas{
+    font-size: 50px
+    
+}
+  
+  th, td {
+    border: 4px solid #000000;
+    padding: 10px;
+    text-align: center;
+  }
+  ul#lista-tareas li span {
+    color: #ffffff;
+  }
+ th {
+  background-color: pink;
+  color: #000;
+}
+
+th:not(:first-child) {
+  background-color: pink;
+  color: #000;
+}
+th {
+    background-color: pink;
+    color: #000;
+  }
+  
+  th:not(:first-child) {
+    background-color: pink;
+    color: #000;
+  }
+  table th, table td {
+    color: rgb(0, 17, 59);
+  }
+  th {
+    background-color: pink;
+    
+  }
+  
+  /* Estilos para las tareas pendientes */
+  .tareas {
+    margin: 20px 0;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #ccc;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    font-size: 50px;
+  }
+ 
+  /* Estilos para el formulario de agregar tarea */
+  #formulario {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 5px 10px;
+    background-color: rgb(255, 156, 172);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ef41ff;
+}
+
+.eliminar {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.eliminar:hover {
+  background-color: #da190b;
+}
+#formulario {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 40px;
+}
+table {
+    width: 80%;
+    margin: 0 auto;
+}
+.container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1;
+    overflow: auto;
+}
