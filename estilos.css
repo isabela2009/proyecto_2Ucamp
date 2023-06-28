@@ -1,7 +1,7 @@
 /* Estilos para la tabla de horario */
 body {
     font-size: 50px;
-    background-image: url('https://us.123rf.com/450wm/sternfahrer/sternfahrer2210/sternfahrer221000949/193245556-cerezos-rosas-junto-a-un-camino-inexplorado-arte-de-ilustración-de-anime.jpg?ver=6');
+    background-image: url(https://snowbrains.com/wp-content/uploads/2021/05/milky-way-photo-linda-todd-limon-orig_orig-min.jpg);
     background-size: cover;
     font-weight: bold;
     font-style: italic;
@@ -149,3 +149,31 @@ table {
     flex: 1;
     overflow: auto;
 }
+button[type="submit"],
+button[type="button"] {
+    padding: 10px 20px;
+    font-size: 30px;
+}
+.modo-boton{
+  background-color: #ff94ea;
+  border-radius: 10px;
+
+}
+.modo-boton:hover {
+  background-color: #ef41ff;
+}
+.modo-boton {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+body.modo-claro {
+  background-image: url('https://us.123rf.com/450wm/sternfahrer/sternfahrer2210/sternfahrer221000949/193245556-cerezos-rosas-junto-a-un-camino-inexplorado-arte-de-ilustración-de-anime.jpg?ver=6');
+  /* Otros estilos para el modo claro */
+}
+
+body.modo-oscuro {
+  background-image: url('https://snowbrains.com/wp-content/uploads/2021/05/milky-way-photo-linda-todd-limon-orig_orig-min.jpg');
+  /* Otros estilos para el modo oscuro */
+}
+
