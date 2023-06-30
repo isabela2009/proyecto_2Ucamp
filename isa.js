@@ -4,7 +4,7 @@ const listaTareas = document.getElementById('lista-tareas');
 
 // Crear el botón de modo claro y oscuro
 const modoBoton = document.createElement('button');
-modoBoton.innerText = 'Modo Oscuro';
+modoBoton.innerText = 'Modo Claro';
 modoBoton.classList.add('modo-boton', 'modo-oscuro', 'button-estilos'); // Agregar la clase 'button-estilos'
 
 // Agregar el botón al cuerpo del documento
@@ -14,7 +14,7 @@ document.body.appendChild(modoBoton);
 modoBoton.addEventListener('click', () => {
   if (modoBoton.classList.contains('modo-oscuro')) {
     // Cambiar a modo claro
-    modoBoton.innerText = 'Modo Claro';
+    modoBoton.innerText = 'Modo Oscuro';
     modoBoton.classList.remove('modo-oscuro');
     modoBoton.classList.add('modo-claro');
 

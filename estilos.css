@@ -2,7 +2,8 @@
 body {
     font-size: 50px;
     background-image: url(https://snowbrains.com/wp-content/uploads/2021/05/milky-way-photo-linda-todd-limon-orig_orig-min.jpg);
-    background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
     font-weight: bold;
     font-style: italic;
   }
@@ -38,7 +39,7 @@ th {
     color: #000;
   }
   table th, table td {
-    color: rgb(0, 17, 59);
+    color: #ff62e0;
   }
   th {
     background-color: pink;
@@ -135,6 +136,7 @@ th {
   }
   h1 {
     font-size: 40px;
+    color: #fff;
 }
 table {
     width: 80%;
@@ -169,11 +171,18 @@ button[type="button"] {
 }
 body.modo-claro {
   background-image: url('https://us.123rf.com/450wm/sternfahrer/sternfahrer2210/sternfahrer221000949/193245556-cerezos-rosas-junto-a-un-camino-inexplorado-arte-de-ilustración-de-anime.jpg?ver=6');
+  
   /* Otros estilos para el modo claro */
 }
 
 body.modo-oscuro {
   background-image: url('https://snowbrains.com/wp-content/uploads/2021/05/milky-way-photo-linda-todd-limon-orig_orig-min.jpg');
+  color: #fff3fd;
+
   /* Otros estilos para el modo oscuro */
 }
+body.modo-oscuro td{
+  color: #ff62e0;
+}
+  
 
